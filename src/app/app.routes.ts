@@ -9,6 +9,10 @@ export const routes: Routes = [
         component: HomeComponent
     },
     {
+        path:"home-component", 
+        component: HomeComponent
+    },
+    {
         path:"profile-component",
         component :ProfileComponent
     },

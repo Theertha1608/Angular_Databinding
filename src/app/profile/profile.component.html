@@ -1,8 +1,11 @@
 <div class="center-box">
     <div class="user-details">
+      <h1>{{'Welcome'}} {{user.name}}</h1>
       <p>USER DETAILS</p>
       <h2>{{ user.name }}</h2>
       <p>{{ user.email }}</p>
+      <p>Website: <a class="profile-location" href="#">{{user.website}}</a></p>
+      <p [class.red]="false">Location</p>
     </div>
   </div>
   

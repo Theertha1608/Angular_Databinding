@@ -9,7 +9,9 @@ import { Component } from '@angular/core';
 })
 export class ProfileComponent {
 user = {
-    name: 'John Doe',
-    email: 'john@example.com'
+    name: 'Niya',
+    email: 'niya@example.com',
+    website: 'www.example.com',
+    location: 'Calicut'
   };
 }
