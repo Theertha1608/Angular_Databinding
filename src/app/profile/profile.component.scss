@@ -1,0 +1,17 @@
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .user-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
